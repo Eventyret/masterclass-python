@@ -1,5 +1,15 @@
-#User choice
-#User input
+import random
+
+
+def computer_choice():
+    choices = ["rock", "paper", "scissors"]
+    computer_option = choices[random.randint(0, 2)]
+    return computer_option
+
+
+print(computer_choice())
+
+#User input # Aron & Adan
 
 choices = ["rock","paper","scissors"]
 def take_input():
@@ -10,8 +20,3 @@ def take_input():
         print('error: choice must be either rock, paper or scissors')
 
 
-#Computer choice
-
-#Choices made as a list
-
-#Compare choices
