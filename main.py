@@ -1,8 +1,10 @@
-#User choice
-#User input
+import random
 
-#Computer choice
 
-#Choices made as a list
+def computer_choice():
+    choices = ["rock", "paper", "scissors"]
+    computer_option = choices[random.randint(0, 2)]
+    return computer_option
 
-#Compare choices
+
+print(computer_choice())
