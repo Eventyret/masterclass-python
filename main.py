@@ -1,10 +1,5 @@
-#User choice
+import random
 
-#User input
-
-#Computer choice
-
-#Choices made as a list
 choices = ["Rock","Paper","Scissors"]
 
 def loop_for_choices():
@@ -14,4 +9,18 @@ def loop_for_choices():
         
 
 loop_for_choices()
-#Compare choices
+
+def computer_choice():
+    choices = ["rock", "paper", "scissors"]
+    computer_option = choices[random.randint(0, 2)]
+    return computer_option
+
+
+print(computer_choice())
+
+#User input # Aron & Adan
+
+#Computer choice # Gabor Neil
+
+
+
