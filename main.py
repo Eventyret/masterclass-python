@@ -1,14 +1,12 @@
 import random
 
-choices = ["Rock","Paper","Scissors"]
+choices = ["Rock", "Paper", "Scissors"]
+
 
 def loop_for_choices():
-    
     for i in range(len(choices)):
         print(choices[i])
-        
 
-loop_for_choices()
 
 def computer_choice():
     choices = ["rock", "paper", "scissors"]
@@ -38,17 +36,10 @@ def take_input():
 def judgement(user_input, computer_option):
     if user_input == computer_option:
         print('draw')
-    elif losing_choice == computer_option:
+    elif get_answers(user_input) == computer_option:
         print('user wins')
     else:
         print('computer wins')
-
-
-def loop_for_choices():
-    
-    for i in range(len(choices)):
-        print(choices[i])
-        
 
 
 take_input()
