@@ -1,5 +1,14 @@
 import random
 
+choices = ["Rock","Paper","Scissors"]
+
+def loop_for_choices():
+    
+    for i in range(len(choices)):
+        print(choices[i])
+        
+
+loop_for_choices()
 
 def computer_choice():
     choices = ["rock", "paper", "scissors"]
@@ -33,6 +42,13 @@ def judgement(user_input, computer_option):
         print('user wins')
     else:
         print('computer wins')
+
+
+def loop_for_choices():
+    
+    for i in range(len(choices)):
+        print(choices[i])
+        
 
 
 take_input()
