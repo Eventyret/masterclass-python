@@ -8,3 +8,11 @@ def computer_choice():
 
 
 print(computer_choice())
+
+#User input # Aron & Adan
+
+#Computer choice # Gabor Neil
+
+#Choices made as a list Huey & Shizu John
+
+
