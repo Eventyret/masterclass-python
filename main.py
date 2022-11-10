@@ -7,7 +7,7 @@ def take_input():
     if user_input == 'rock' || 'paper' || 'scissors':
         return user_input
     else :
-        print('choice must be either: rock, paper or scissors')
+        print('error: choice must be either rock, paper or scissors')
 
 
 #Computer choice
