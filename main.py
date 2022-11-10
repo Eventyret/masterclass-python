@@ -1,7 +1,17 @@
-#User input # Aron & Adan
+#User choice
+#User input
 
-#Computer choice # Gabor Neil
+choices = ["rock","paper","scissors"]
+def take_input():
+    user_input = input("type rock, paper or scissors")
+    if user_input == 'rock' || 'paper' || 'scissors':
+        return user_input
+    else :
+        print('choice must be either: rock, paper or scissors')
 
-#Choices made as a list Huey & Shizu John
 
-#Compare choices William Keelan
+#Computer choice
+
+#Choices made as a list
+
+#Compare choices
